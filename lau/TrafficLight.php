@@ -31,7 +31,7 @@ class TrafficLight
             return;
         }
 
-        $this->lights[ $color ] = 0;
+        $this->lights[ $color ] = 1;
     }
 
 
@@ -107,4 +107,3 @@ class TrafficLight
     }
 
 }
-
